@@ -5,7 +5,7 @@ from pandas import DataFrame,Series
 import joblib
 
 #Load the model
-model = joblib.load(r'c:/Users/Nii.Sowah/Desktop/DS/streamlitTutorial/hotel_booking_model.joblib')
+model = joblib.load(r'hotel_booking_model.joblib')
 
 #Now we are going to start creating our app
 
